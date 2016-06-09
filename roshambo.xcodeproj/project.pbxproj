@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		371098901D09F46D00A27301 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3710988F1D09F46D00A27301 /* AppDelegate.swift */; };
+		371098921D09F46D00A27301 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371098911D09F46D00A27301 /* ViewController.swift */; };
+		371098951D09F46D00A27301 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 371098931D09F46D00A27301 /* Main.storyboard */; };
+		371098981D09F46D00A27301 /* roshambo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 371098961D09F46D00A27301 /* roshambo.xcdatamodeld */; };
+		3710989A1D09F46D00A27301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371098991D09F46D00A27301 /* Assets.xcassets */; };
+		3710989D1D09F46D00A27301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3710989B1D09F46D00A27301 /* LaunchScreen.storyboard */; };
+		371098A81D09F46D00A27301 /* roshamboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371098A71D09F46D00A27301 /* roshamboTests.swift */; };
+		371098B31D09F46D00A27301 /* roshamboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371098B21D09F46D00A27301 /* roshamboUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		371098A41D09F46D00A27301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 371098841D09F46D00A27301 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3710988B1D09F46D00A27301;
+			remoteInfo = roshambo;
+		};
+		371098AF1D09F46D00A27301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 371098841D09F46D00A27301 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3710988B1D09F46D00A27301;
+			remoteInfo = roshambo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3710988C1D09F46D00A27301 /* roshambo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = roshambo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3710988F1D09F46D00A27301 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		371098911D09F46D00A27301 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		371098941D09F46D00A27301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		371098971D09F46D00A27301 /* roshambo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = roshambo.xcdatamodel; sourceTree = "<group>"; };
+		371098991D09F46D00A27301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3710989C1D09F46D00A27301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3710989E1D09F46D00A27301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		371098A31D09F46D00A27301 /* roshamboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = roshamboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		371098A71D09F46D00A27301 /* roshamboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roshamboTests.swift; sourceTree = "<group>"; };
+		371098A91D09F46D00A27301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		371098AE1D09F46D00A27301 /* roshamboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = roshamboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		371098B21D09F46D00A27301 /* roshamboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roshamboUITests.swift; sourceTree = "<group>"; };
+		371098B41D09F46D00A27301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		371098891D09F46D00A27301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371098A01D09F46D00A27301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371098AB1D09F46D00A27301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		371098831D09F46D00A27301 = {
+			isa = PBXGroup;
+			children = (
+				3710988E1D09F46D00A27301 /* roshambo */,
+				371098A61D09F46D00A27301 /* roshamboTests */,
+				371098B11D09F46D00A27301 /* roshamboUITests */,
+				3710988D1D09F46D00A27301 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3710988D1D09F46D00A27301 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3710988C1D09F46D00A27301 /* roshambo.app */,
+				371098A31D09F46D00A27301 /* roshamboTests.xctest */,
+				371098AE1D09F46D00A27301 /* roshamboUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3710988E1D09F46D00A27301 /* roshambo */ = {
+			isa = PBXGroup;
+			children = (
+				3710988F1D09F46D00A27301 /* AppDelegate.swift */,
+				371098911D09F46D00A27301 /* ViewController.swift */,
+				371098931D09F46D00A27301 /* Main.storyboard */,
+				371098991D09F46D00A27301 /* Assets.xcassets */,
+				3710989B1D09F46D00A27301 /* LaunchScreen.storyboard */,
+				3710989E1D09F46D00A27301 /* Info.plist */,
+				371098961D09F46D00A27301 /* roshambo.xcdatamodeld */,
+			);
+			path = roshambo;
+			sourceTree = "<group>";
+		};
+		371098A61D09F46D00A27301 /* roshamboTests */ = {
+			isa = PBXGroup;
+			children = (
+				371098A71D09F46D00A27301 /* roshamboTests.swift */,
+				371098A91D09F46D00A27301 /* Info.plist */,
+			);
+			path = roshamboTests;
+			sourceTree = "<group>";
+		};
+		371098B11D09F46D00A27301 /* roshamboUITests */ = {
+			isa = PBXGroup;
+			children = (
+				371098B21D09F46D00A27301 /* roshamboUITests.swift */,
+				371098B41D09F46D00A27301 /* Info.plist */,
+			);
+			path = roshamboUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3710988B1D09F46D00A27301 /* roshambo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 371098B71D09F46D00A27301 /* Build configuration list for PBXNativeTarget "roshambo" */;
+			buildPhases = (
+				371098881D09F46D00A27301 /* Sources */,
+				371098891D09F46D00A27301 /* Frameworks */,
+				3710988A1D09F46D00A27301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = roshambo;
+			productName = roshambo;
+			productReference = 3710988C1D09F46D00A27301 /* roshambo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		371098A21D09F46D00A27301 /* roshamboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 371098BA1D09F46D00A27301 /* Build configuration list for PBXNativeTarget "roshamboTests" */;
+			buildPhases = (
+				3710989F1D09F46D00A27301 /* Sources */,
+				371098A01D09F46D00A27301 /* Frameworks */,
+				371098A11D09F46D00A27301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				371098A51D09F46D00A27301 /* PBXTargetDependency */,
+			);
+			name = roshamboTests;
+			productName = roshamboTests;
+			productReference = 371098A31D09F46D00A27301 /* roshamboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		371098AD1D09F46D00A27301 /* roshamboUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 371098BD1D09F46D00A27301 /* Build configuration list for PBXNativeTarget "roshamboUITests" */;
+			buildPhases = (
+				371098AA1D09F46D00A27301 /* Sources */,
+				371098AB1D09F46D00A27301 /* Frameworks */,
+				371098AC1D09F46D00A27301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				371098B01D09F46D00A27301 /* PBXTargetDependency */,
+			);
+			name = roshamboUITests;
+			productName = roshamboUITests;
+			productReference = 371098AE1D09F46D00A27301 /* roshamboUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		371098841D09F46D00A27301 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Daniel Huang";
+				TargetAttributes = {
+					3710988B1D09F46D00A27301 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					371098A21D09F46D00A27301 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3710988B1D09F46D00A27301;
+					};
+					371098AD1D09F46D00A27301 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3710988B1D09F46D00A27301;
+					};
+				};
+			};
+			buildConfigurationList = 371098871D09F46D00A27301 /* Build configuration list for PBXProject "roshambo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 371098831D09F46D00A27301;
+			productRefGroup = 3710988D1D09F46D00A27301 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3710988B1D09F46D00A27301 /* roshambo */,
+				371098A21D09F46D00A27301 /* roshamboTests */,
+				371098AD1D09F46D00A27301 /* roshamboUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3710988A1D09F46D00A27301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3710989D1D09F46D00A27301 /* LaunchScreen.storyboard in Resources */,
+				3710989A1D09F46D00A27301 /* Assets.xcassets in Resources */,
+				371098951D09F46D00A27301 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371098A11D09F46D00A27301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371098AC1D09F46D00A27301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		371098881D09F46D00A27301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371098981D09F46D00A27301 /* roshambo.xcdatamodeld in Sources */,
+				371098921D09F46D00A27301 /* ViewController.swift in Sources */,
+				371098901D09F46D00A27301 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3710989F1D09F46D00A27301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371098A81D09F46D00A27301 /* roshamboTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371098AA1D09F46D00A27301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371098B31D09F46D00A27301 /* roshamboUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		371098A51D09F46D00A27301 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3710988B1D09F46D00A27301 /* roshambo */;
+			targetProxy = 371098A41D09F46D00A27301 /* PBXContainerItemProxy */;
+		};
+		371098B01D09F46D00A27301 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3710988B1D09F46D00A27301 /* roshambo */;
+			targetProxy = 371098AF1D09F46D00A27301 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		371098931D09F46D00A27301 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				371098941D09F46D00A27301 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3710989B1D09F46D00A27301 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3710989C1D09F46D00A27301 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		371098B51D09F46D00A27301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		371098B61D09F46D00A27301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		371098B81D09F46D00A27301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = roshambo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = traveio.roshambo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		371098B91D09F46D00A27301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = roshambo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = traveio.roshambo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		371098BB1D09F46D00A27301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = roshamboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = traveio.roshamboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/roshambo.app/roshambo";
+			};
+			name = Debug;
+		};
+		371098BC1D09F46D00A27301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = roshamboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = traveio.roshamboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/roshambo.app/roshambo";
+			};
+			name = Release;
+		};
+		371098BE1D09F46D00A27301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = roshamboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = traveio.roshamboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = roshambo;
+			};
+			name = Debug;
+		};
+		371098BF1D09F46D00A27301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = roshamboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = traveio.roshamboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = roshambo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		371098871D09F46D00A27301 /* Build configuration list for PBXProject "roshambo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371098B51D09F46D00A27301 /* Debug */,
+				371098B61D09F46D00A27301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		371098B71D09F46D00A27301 /* Build configuration list for PBXNativeTarget "roshambo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371098B81D09F46D00A27301 /* Debug */,
+				371098B91D09F46D00A27301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		371098BA1D09F46D00A27301 /* Build configuration list for PBXNativeTarget "roshamboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371098BB1D09F46D00A27301 /* Debug */,
+				371098BC1D09F46D00A27301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		371098BD1D09F46D00A27301 /* Build configuration list for PBXNativeTarget "roshamboUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371098BE1D09F46D00A27301 /* Debug */,
+				371098BF1D09F46D00A27301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		371098961D09F46D00A27301 /* roshambo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				371098971D09F46D00A27301 /* roshambo.xcdatamodel */,
+			);
+			currentVersion = 371098971D09F46D00A27301 /* roshambo.xcdatamodel */;
+			path = roshambo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 371098841D09F46D00A27301 /* Project object */;
+}
