@@ -15,6 +15,7 @@
 		3710989D1D09F46D00A27301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3710989B1D09F46D00A27301 /* LaunchScreen.storyboard */; };
 		371098A81D09F46D00A27301 /* roshamboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371098A71D09F46D00A27301 /* roshamboTests.swift */; };
 		371098B31D09F46D00A27301 /* roshamboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371098B21D09F46D00A27301 /* roshamboUITests.swift */; };
+		371098C11D09F7E200A27301 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371098C01D09F7E200A27301 /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		371098AE1D09F46D00A27301 /* roshamboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = roshamboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		371098B21D09F46D00A27301 /* roshamboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roshamboUITests.swift; sourceTree = "<group>"; };
 		371098B41D09F46D00A27301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		371098C01D09F7E200A27301 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				3710989B1D09F46D00A27301 /* LaunchScreen.storyboard */,
 				3710989E1D09F46D00A27301 /* Info.plist */,
 				371098961D09F46D00A27301 /* roshambo.xcdatamodeld */,
+				371098C01D09F7E200A27301 /* ResultsViewController.swift */,
 			);
 			path = roshambo;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				371098981D09F46D00A27301 /* roshambo.xcdatamodeld in Sources */,
 				371098921D09F46D00A27301 /* ViewController.swift in Sources */,
 				371098901D09F46D00A27301 /* AppDelegate.swift in Sources */,
+				371098C11D09F7E200A27301 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
