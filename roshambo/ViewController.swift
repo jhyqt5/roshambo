@@ -9,15 +9,30 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
+    var userSelection: String!
+    
+    @IBAction func userChoice(sender: UIButton) {
+        
+        
+        if sender.tag == 0 {
+            userSelection = "Rock"
+        } else if sender.tag == 1 {
+            userSelection = "Scissors"
+        } else {
+            userSelection = "Paper"
+        }
+        
+        
+        performSegueWithIdentifier("showResults", sender: self)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        if segue.identifier == "showResults" {
+            let controller = segue.destinationViewController as! ResultsViewController
+            controller.selection = userSelection
+        }
     }
 
 
