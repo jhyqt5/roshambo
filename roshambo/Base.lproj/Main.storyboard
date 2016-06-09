@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
+<<<<<<< HEAD
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+||||||| merged common ancestors
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+=======
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+>>>>>>> 157ab75d209fdbb8b65c9ff85b6f45150dc171fe
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,11 +24,104 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qvf-Oa-Hpv" userLabel="Rock">
+                                <rect key="frame" x="156" y="310" width="75" height="65"/>
+                                <state key="normal" image="rock"/>
+                                <connections>
+                                    <action selector="userChoice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zna-fW-2YS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g05-BF-AzT" userLabel="Scissors">
+                                <rect key="frame" x="236" y="206" width="129" height="65"/>
+                                <state key="normal" image="scissors"/>
+                                <connections>
+                                    <action selector="userChoice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GuC-gb-g4z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qq1-5C-HRK" userLabel="Paper">
+                                <rect key="frame" x="331" y="310" width="75" height="65"/>
+                                <state key="normal" image="paper"/>
+                                <connections>
+                                    <action selector="userChoice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FIQ-gP-CeG"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qq1-5C-HRK" firstAttribute="leading" secondItem="g05-BF-AzT" secondAttribute="trailing" id="7eJ-S4-G3d"/>
+                            <constraint firstItem="qvf-Oa-Hpv" firstAttribute="trailing" secondItem="g05-BF-AzT" secondAttribute="leading" id="GfJ-jJ-H6b"/>
+                            <constraint firstItem="g05-BF-AzT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-50" id="Isg-rk-BZb"/>
+                            <constraint firstItem="g05-BF-AzT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KyH-HE-lQ9"/>
+                            <constraint firstItem="qq1-5C-HRK" firstAttribute="top" secondItem="g05-BF-AzT" secondAttribute="bottom" constant="50" id="LB2-gC-2rE"/>
+                            <constraint firstItem="qvf-Oa-Hpv" firstAttribute="top" secondItem="g05-BF-AzT" secondAttribute="bottom" constant="50" id="r1Z-jq-PHX"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <segue destination="Gge-YO-x3v" kind="show" identifier="showResults" id="UMn-I9-vQ5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="305" y="418"/>
+        </scene>
+        <!--Results View Controller-->
+        <scene sceneID="o27-Ek-QhX">
+            <objects>
+                <viewController id="Gge-YO-x3v" customClass="ResultsViewController" customModule="roshambo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zuC-zC-ede"/>
+                        <viewControllerLayoutGuide type="bottom" id="tnD-pH-bGo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Twd-Lc-cg7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TDr-Cu-hTE">
+                                <rect key="frame" x="180" y="165" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="M6J-Jd-8gW"/>
+                                    <constraint firstAttribute="width" constant="200" id="lkk-DR-zZ2"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="30n-Pi-R9z">
+                                <rect key="frame" x="271" y="524" width="71" height="30"/>
+                                <state key="normal" title="Play Again"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Gi3-l6-4TO"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wnO-1y-sYO">
+                                <rect key="frame" x="285" y="401" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="30n-Pi-R9z" firstAttribute="top" secondItem="wnO-1y-sYO" secondAttribute="bottom" constant="25" id="3ai-Iq-xle"/>
+                            <constraint firstItem="wnO-1y-sYO" firstAttribute="top" secondItem="TDr-Cu-hTE" secondAttribute="bottom" constant="50" id="3xJ-Ur-H8N"/>
+                            <constraint firstItem="TDr-Cu-hTE" firstAttribute="centerX" secondItem="Twd-Lc-cg7" secondAttribute="centerX" id="J7M-EF-jjo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wnO-1y-sYO" secondAttribute="trailing" id="K6m-XD-bSx"/>
+                            <constraint firstItem="wnO-1y-sYO" firstAttribute="leading" secondItem="Twd-Lc-cg7" secondAttribute="leadingMargin" id="OIn-En-e5Y"/>
+                            <constraint firstItem="TDr-Cu-hTE" firstAttribute="centerY" secondItem="Twd-Lc-cg7" secondAttribute="centerY" id="d2U-B0-Dbm"/>
+                            <constraint firstItem="30n-Pi-R9z" firstAttribute="centerX" secondItem="Twd-Lc-cg7" secondAttribute="centerX" id="fF1-Uk-sxK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="TDr-Cu-hTE" id="piH-2A-h0L"/>
+                        <outlet property="winStatement" destination="wnO-1y-sYO" id="kza-aV-L4w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yFs-H6-2x4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="995" y="418"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="paper" width="75" height="65"/>
+        <image name="rock" width="75" height="65"/>
+        <image name="scissors" width="75" height="65"/>
+    </resources>
 </document>
